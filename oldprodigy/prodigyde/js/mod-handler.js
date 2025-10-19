@@ -1,5 +1,5 @@
 /*
-	Simple mod interface for Prodigy version 1-11-0
+	Simple mod interface for Prodigy version 1-10-0 Definitive Edition
 	
 	Installed Mods: 
 		
@@ -8,12 +8,11 @@
 		Walk Speed 					Daboss7173
 		Fast Game Speed				Daboss7173
 		Classic Faces				Daboss7173
-		Classic Faces For Boys		XPMUser
-		CoyBlush				    XPMUser
+		Classic Faces For Boys		Ao28th28
+		CoyBlush				    Ao28th28
 	
-	Written by: Daboss7173 & XPMUser
+	Written by: Daboss7173 & Ao28th28
 	Github: https://github.com/Daboss7173/Daboss7173.github.io
-	Github: https://github.com/XPMUser/XPMUser.github.io
 */
 class ModHandler {
 	constructor(e) {
@@ -148,7 +147,7 @@ class ModHandler {
 	
 	initClassicFaceMod() {
 		var assets = this.game.assets.getAssetMap();
-		assets.heads.base = "https://xpmuser.github.io/oldprodigy/1-10-0/assets/images/";
+		assets.heads.base = "https://ao28th28thedev.github.io/Ao28th28thedev/oldprodigy/1-10-0/assets/images/";
 		
 		PlayerContainer.getAssets = function(e, t, a) {
 			var i = new Array;
@@ -242,7 +241,7 @@ class ModHandler {
 
 	initCoyBlushMod() {
 		var assets = this.game.assets.getAssetMap();
-		assets.heads.base = "https://xpmuser.github.io/oldprodigy/pde1221/assets/images/";
+		assets.heads.base = "https://ao28th28thedev.github.io/Ao28th28thedev/oldprodigy/pde1221/assets/images/";
 		
 		PlayerContainer.getAssets = function(e, t, a) {
 			var i = new Array;
