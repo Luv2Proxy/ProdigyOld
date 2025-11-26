@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insider Program News & Updates</title>
+  <!-- Tailwind CSS loaded for responsive, modern styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom Fonts (Assuming "BrianneTod" and "Pipe Dream" are locally available or defined elsewhere, defaulting to Inter) */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+    body {
+      font-family: 'Inter', "BrianneTod", "Pipe Dream", sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: #f0f4f8; /* Light gray-blue background */
+    }
+
+    /* Custom styles for the Prodigy theme colors */
+    .prodigy-blue { background-color: #0066cc; }
+    .prodigy-blue-dark { background-color: #004d99; }
+    .prodigy-accent { color: #ff9900; }
+    .prodigy-text { color: #0066cc; }
+
+    /* Custom hover effect for dropdown buttons */
+    .dropbtn:hover { background-color: #004d99; }
+    .dropdown:hover .dropdown-content { display: block; }
+
+    /* Basic dropdown styling for better integration */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #0066cc;
+      min-width: 180px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      border-radius: 0 0 8px 8px;
+      overflow: hidden;
+    }
+
+    .dropdown-content a {
+      color: #fff;
+      padding: 10px 15px;
+      display: block;
+      white-space: nowrap;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #004d99;
+    }
+
+    /* Article Card Styles */
+    .article-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .article-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="prodigy-blue text-white shadow-lg">
+    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl font-extrabold tracking-tight">
+        Insider Program News Center
+      </h1>
+      <p class="text-xl mt-2 opacity-90">Latest updates, patch notes, and dev insights for Old Prodigy/Prodidows</p>
+    </div>
+
+    <!-- Navigation Bar (Reusing the structure from the homepage) -->
+    <nav class="prodigy-blue-dark py-2">
+      <div class="flex justify-center flex-wrap gap-4 text-white">
+        <a href="index.html" class="p-2 rounded-md hover:bg-prodigy-blue-dark transition duration-150 ease-in-out">Home</a>
+
+        <!-- Dropdown Menu -->
+        <div class="dropdown relative">
+          <button class="dropbtn p-2 rounded-md hover:bg-prodigy-blue-dark transition duration-150 ease-in-out">
+            Versions ▼
+          </button>
+          <div class="dropdown-content">
+            <!-- List of Versions -->
+            <a href="pde1.51.0/index.html">PDE 1.51.0</a>
+            <a href="pde202X/index.html">PDE 202X</a>
+            <a href="pde1252/index.html">PDE 1.25.2</a>
+            <a href="pde1500/?mods=WalkSpeed,FastGameSpeed,ClassicFaces">PDE1500</a>
+            <a href="pde/index.html">PDE</a>
+            <a href="pde2019/index.html">PDE2019</a>
+            <a href="pde1700/index.html?mods=WalkSpeed,FastGameSpeed,ImitationTitan">PDE1700</a>
+            <a href="prodigyde/index.html?mods=WalkSpeed,FastGameSpeed">ProdigyDE</a>
+            <a href="pde2015/index.html?mods=WalkSpeed,FastGameSpeed">PDE2015</a>
+            <a href="pde2016/index.html?mods=WalkSpeed,FastGameSpeed">PDE2016</a>
+            <a href="1-18-2/index.html?mods=WalkSpeed,FastGameSpeed">PDE1812</a>
+            <a href="oldprodigyde/index.html?mods=FastGameSpeed">Old Prodigy DE</a>
+          </div>
+        </div>
+        <!-- End Dropdown Menu -->
+
+        <a href="mods.html" class="p-2 rounded-md hover:bg-prodigy-blue-dark transition duration-150 ease-in-out">Mods</a>
+        <a href="prodidows.html" class="p-2 rounded-md hover:bg-prodigy-blue-dark transition duration-150 ease-in-out">Prodidows</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="flex-grow max-w-5xl mx-auto p-4 sm:p-6 lg:p-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold prodigy-text border-b-4 border-prodigy-accent pb-2 inline-block">Recent Insider Posts</h2>
+    </div>
+
+    <!-- Articles Grid -->
+    <!-- Grid adjusted to be two columns on medium screens and up, even with one article for future expansion -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+
+      <!-- New Article 1: Website Redesign -->
+      <div class="article-card bg-white p-6 rounded-xl shadow-lg border border-gray-200 col-span-1 md:col-span-2 lg:col-span-2 max-w-2xl mx-auto">
+        <span class="inline-block px-3 py-1 text-sm font-semibold rounded-full bg-orange-100 text-orange-600 mb-4">
+          SITE NEWS
+        </span>
+        <h3 class="text-2xl font-bold text-gray-800 mb-3 hover:text-prodigy-blue transition-colors duration-200 cursor-pointer">
+          Insider Program Website Redesign Launched!
+        </h3>
+        <p class="text-gray-600 mb-4">
+          Welcome to the updated Insider Program home! We've completely overhauled the website with fresh styling, easier navigation, and a fully mobile-responsive design. This change ensures a cleaner experience and faster access to all early versions and mods. Tell us what you think!
+        </p>
+        <p class="text-sm text-gray-400 mb-4">
+          Posted by Dev Ao28th | September 20, 2024
+        </p>
+        <a href="#article-redesign-full" class="text-prodigy-blue font-semibold hover:text-blue-700">Read Full Article &rarr;</a>
+      </div>
+
+      <!-- Template for future articles (Kept for reference) -->
+      <!--
+      <div class="article-card bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+        <span class="inline-block px-3 py-1 text-sm font-semibold rounded-full bg-green-100 text-green-600 mb-4">
+          HOTFIX
+        </span>
+        <h3 class="text-2xl font-bold text-gray-800 mb-3 hover:text-prodigy-blue transition-colors duration-200 cursor-pointer">
+          [Your Title Here]
+        </h3>
+        <p class="text-gray-600 mb-4">
+          [Summary of the article content, e.g., bug fixes, small feature release, or community highlight.]
+        </p>
+        <p class="text-sm text-gray-400 mb-4">
+          Posted by [Author Name] | [Date]
+        </p>
+        <a href="#article-full" class="text-prodigy-blue font-semibold hover:text-blue-700">Read Full Article &rarr;</a>
+      </div>
+      -->
+
+    </div>
+
+    <!-- More space for future articles -->
+    <div class="text-center mt-12">
+        <button class="bg-prodigy-accent text-gray-800 font-bold py-3 px-6 rounded-lg shadow-md hover:bg-yellow-500 transition duration-150">
+            Load Older News
+        </button>
+    </div>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="mt-auto prodigy-blue-dark text-white py-6">
+    <div class="text-center">
+      <p class="mb-2">
+        <a href="contact.html" class="hover:underline">Contact Us</a> |
+        <a href="https://ao28th28thedev.github.io/Ao28th28thedev/" class="hover:underline">Back to Main Page</a>
+      </p>
+      <p class="text-sm opacity-75">
+        &copy; 2024 Old Prodigy/Prodidows Insider Program. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
