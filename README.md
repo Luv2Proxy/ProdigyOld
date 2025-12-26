@@ -2,7 +2,7 @@
 
 Revolt Server: https://rvlt.gg/YW9wGRpd
 
-If you're playing my Old Prodigy versions, Definitive Editions, Ultimate Editions, or Prodidows versions, and you experience bugs, or want a new feature added, but you're under 13, ask your parents to report bugs in the bug report template or to ask for anything in the feature request template.
+If you're playing my Old Prodigy versions, Definitive Editions, Ultimate Editions, ProdigyPlus versions or Prodidows versions, and you experience bugs, or want a new feature added, but you're under 13, ask your parents to report bugs in the bug report template or to ask for anything in the feature request template.
 
 # Credits
 
@@ -46,7 +46,7 @@ and I'll try to address it as soon as I can!
 
 There are also forks of my mods. Check them out whenever you get the chance! They're awesome!
 
-If you want to add a house item to your house in 2014-2015's versions, Definitive, Ultimate, or Prodidows versions in 2014-2015 Mode, drag the gold or the price of the house item to drag a house item, & then put the house item wherever you want to put it.
+If you want to add a house item to your house in 2014-2015's versions, Definitive, Ultimate, ProdigyPlus or Prodidows versions in 2014-2015 Mode, drag the gold or the price of the house item to drag a house item, & then put the house item wherever you want to put it.
 
 ## Disclaimers
 
